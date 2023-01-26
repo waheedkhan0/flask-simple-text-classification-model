@@ -1,4 +1,4 @@
-# flask-simple-text-classification-model-
+# A Flask App to demonstrate simple text classification model
 A simple text classification model and Flask framework to deploy. This was done to learn about how a simple AI solution can be deployed as a service and exposing method to be served.
 
 Here are the steps involved and details:
@@ -62,4 +62,10 @@ This runs a web server on your machine on localhost on port 8000, you can then s
 
 This is a basic example of how to deploy a machine learning model as a web service using Flask.
 
+## Dependencies
+- Flask: A micro web framework for Python that we use to create the web service.
+- joblib: A library for saving and loading Python objects, which we use to save and load the trained model.
+- numpy: A library for numerical computations that is used by scikit-learn.
+- scikit-learn: A library for machine learning that we use to train the text classification model.
+- scipy: A library for scientific and technical computations that is also used by scikit-learn.
 
